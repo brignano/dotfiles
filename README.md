@@ -17,7 +17,7 @@ To use these dotfiles in your GitHub Codespaces:
 
 ## What Gets Installed
 
-Currently, this dotfiles repository sets up the basic environment. Additional tools can be installed by adding installation scripts and uncommenting them in `install.sh`.
+Currently, this dotfiles repository sets up a basic environment. Additional tools can be installed by adding installation scripts and uncommenting them in `install.sh`.
 
 ## How It Works
 
