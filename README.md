@@ -4,7 +4,7 @@ Personal dotfiles for GitHub Codespaces configuration.
 
 ## Features
 
-- Terraform installation and configuration
+- Customizable dotfiles for GitHub Codespaces
 
 ## Usage with GitHub Codespaces
 
@@ -17,15 +17,14 @@ To use these dotfiles in your GitHub Codespaces:
 
 ## What Gets Installed
 
-- **Terraform**: Installs Terraform v1.5.7 (configurable via `TERRAFORM_VERSION` environment variable)
-- Adds `$HOME/.local/bin` to your PATH for installed binaries
+Currently, this dotfiles repository sets up a basic environment. Additional tools can be installed by adding installation scripts and uncommenting them in `install.sh`.
 
 ## How It Works
 
 When you create a new Codespace, GitHub Codespaces will:
 1. Clone this repository
 2. Look for and execute the `install.sh` script
-3. The `install.sh` script runs all the individual installation scripts (e.g., `install-terraform.sh`)
+3. The `install.sh` script can run individual installation scripts as needed
 
 ## Manual Installation
 
@@ -33,10 +32,4 @@ You can also run the installation script manually:
 
 ```bash
 bash install.sh
-```
-
-Or install specific tools:
-
-```bash
-bash install-terraform.sh
 ```
